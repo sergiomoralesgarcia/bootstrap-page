@@ -1,0 +1,30 @@
+@font-face {
+    font-family: titulo;
+    src: url("../fonts/HOMOARAK.TTF");
+}
+
+@font-face {
+    font-family: texto;
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+.titulo{font-family: titulo;}
+.texto{font-family: texto;}
+
+/* general layout */
+.bg-vanilla{background-color: rgb(14, 14, 14);}
+.bg-azul{background-color: rgba(12, 12, 248, 0.863);}
+.bg-rojo{background-color: rgba(148, 3, 3, 0.911)}
+.bg-blanco{background-color: #c5c6c7e8;}
+.bg-negro{background-color: rgba(0, 0, 0, 0.918);}
+.text-blancosolid{color: #fefeff}
+.text-negrosolid{color: black;}
+.text.rojosolid{color: rgb(168, 6, 6);}
+
+body {background-image: url("../images/fondo2.jpg");
+    background-size: 100px;}
+
+#barra{color: rgb(202, 16, 16);}
+
+#contenedor p:first-letter{font-size: 1.5em;}
+
+#actores p::first-letter {font-size: 1em;}

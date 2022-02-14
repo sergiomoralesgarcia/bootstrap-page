@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiderman</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark">
+  <div class=" ">
+    <div id="contenedor" class="container w-80 m-auto col-md-10 ">
+        
+      <!-- Barra de Navegación -->
+        <nav  class="navbar navbar-expand-lg navbar-light bg-vanilla sticky-top position-sticky top-0  zindex-sticky ">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#"><img id="logo" width="45" src="./images/spidermanlogo.png" alt=""></a>
+                <button id="barra" type="button" class="navbar-toggler btn btn-outline-danger"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span  class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                    <a id="barra" class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a id="barra" class="nav-link" href="#introduccion">Introducción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="barra" class="nav-link" href="#cine">Cine</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="barra" class="nav-link" href="#actores">Actores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="barra" class="nav-link" href="#estadisticas">Ranking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="barra" class="nav-link" href="#conclusion">Recorrido</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Carrousel de Imágenes -->
+        <section id="inicio">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/comic.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Cómics</h5>
+                      <p>El comienzo del personaje </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/ps5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>videojuegos</h5>
+                      <p>Una experiencia inmersiva</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/escudo2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Películas </h5>
+                      <p>El punto álgido del personaje</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </section >
+        
+        <section id="introduccion" class="text-justify texto bg-rojo px-5 py-4 text-blancosolid">
+          <div class="px-8 py-4 fs-5">
+            <h1 class="text-center titulo fs-2">Introduccion</h1>
+            <p>Spiderman es uno de los personajes de superhéroes más conocidos de todo el mundo. El hombre araña fue creado por Stan Lee y Steve Ditko y publicado por Marvel Comics en agosto de 1962.</p>
+            <p>La historia de este suphéroe empezó con la idea de un joven llamado Peter Parker al cual le pica una araña que le acaba aportando poderes especiales propios de la misma, como la capacidad de trepar por las paredes, tener superfuerza y velocidad y poder disparar telarañas desde su muñeca.</p>
+            <p>Spiderman fue todo un acontecimiento en el mundo de los comics, pero su momento álgido fue en 2002 cuando por primera vez llegó a la gran pantalla.<p>
+          </div>
+        </section>
+        <section id="cine" class="text-justify texto bg-negro px-5 py-4 text-blancosolid">
+          <div class="container-fluid p-white px-1 py-4 fs-5 border-bottom">
+            <h1 class="text-center h1 titulo py-3 fs-2">Su recorrido por el cine</h1>
+            <div class="clearfix">
+                <div class="row-cols-1"><img id="spidy" src="./images/3spiderman.jpg" class="col-md-7 float-md-end mb-3 ms-md-3" alt="Imagen tres actores spiderman"></div>
+            <p>Actualmente el personaje del Hombre Araña ha pasado por la mano de tres actores que se han ganado el respeto y el cariño de la gente.</p>
+            <p>El fenómeno comenzó en 2002 con la salida de la película SPIDER-MAN protagonizada por Tobey Maguire, dirigida por Sam Raimi y publicada por Sony.
+              El éxito de estas peículas fue tal que se hicieron dos secuelas más: SPIDER-MAN 2 en 2004 (reconocida y valorada como una de las mejores películas de la historia del cine de superhéroes) y SPIDER-MAN 3 en 2007 (la película más exitosa de la trilogía pero la peor valorada). Sony propuso hacer una cuarta entrega pero su director se negó debido a que consideraba que no tenía el suficiente conicimiento como para realizarla, por lo que Sony se puso manos a la obra con un reboot de la saga.</p>
+              
+            <p>Para este relanzamiento del personaje el director Mark Web escogió al actor Andrew Garfield para interpretar a Spiderman como Peter Parker. En 2012 se lanzó The Amazing Spiderman la cual fue criticada por parecerse tanto a la ya lanzada en 2002. Más tarde, en 2014, se lanzaría su secuela The Amazing Spiderman 2. Esta cinta además de no conseguir los beneficios que Sony tenía en mente, acabó con la saga de este director.  </p>
+            <p>Tras la dura cancelación de The Amazing Spiderman 3, Sony y Marvel llegaron a un acuerdo para introducir al Hombre Araña en el UCM con el director Jon Watts y el joven actor Tom Holland. Su primera aparición de muchas en el cine fue en Capitán América: Civil War en 2016. En 2017 se lanzaría su primera peícula llamada Spider-Man Homecoming, la cual tuvo una gran recepción por parte de los fans. Más tarde, en 2019 se lanzó su secuela Spider-Man Far From Home, una película que daría pie en diciembre de 2021 a uno de los 3 mayores fenómenos mundiales del cine, su tercera parte llamada Spider-Man No Way Home, una de las películas más taquilleras de todos los tiempos, valorada como la mejor película de Spiderman y considerada la mejor pelicula de Marvel. </p>
+          </div>
+        </section>
+
+        <!-- Cartas Informativas -->
+        <section id="actores" class="texto bg-rojo px-4 py-4 ">
+          <h1 class="text-center h1 titulo text-blancosolid py-3 fs-2">Actores </h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-3 px-4">
+            <div id="tobey" class="col">
+              <div class="card h-100">
+                <img src="./images/spiderman3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tobey Maguire</h5>
+                  <p class="text-justify card-text fs-6">Con una edad de 47 años, a llegado a portar el traje de este personaje en un total de 4 películas, siendo el actor que más a cobrado de los tres por protagonizar una película de spiderman.</p>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                    Leer más
+                  </button>
+                  <!-- Vertically centered modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="text-justify modal-body fs-6">
+                          <p>Tobias Maguire nació el 27 de junio de 1975 en Santa Mónica, hijo de Wendy Brown, una guionista y productora,1​ y Vincent Maguire, un obrero y cocinero. En un principio, pensaba convertirse en chef, al igual que su padre, pero su madre lo animó  a seguir una carrera actoral e incluso le dio cien dólares para que en la escuela tomara clases de teatro. Abandonó sus estudios en noveno grado para dedicarse a la actuación.</p> 
+
+                          <p>En 1999 fue ganador del Saturn Award a la mejor actuación de joven actor o actriz en la peícula Pleasantville, en 2003	gano el Black Reel Awards a la mejor película con 25th Hour y en 2003	ganó el MTV Movie Award al mejor beso (con Kirsten Dunst) en Spider-Man.	</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="Andrew" class="col">
+              <div class="card h-100">
+                <img src="./images/tasm2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Andrew Garfield</h5>
+                  <p class=" text-justify card-text fs-6">Teniendo 38 años, es el actor que menos a llegado a cobrar por realizar sus películas, ganando un total de 500.000 dolares en su primera entrega y 1.000.000 de dolares en su secuela. Actualmente ha realizado 3 películas interpretando al personaje.</p>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#static" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                    Leer más
+                  </button>
+                  <!-- Vertically centered modal -->
+                  <div class="modal fade" id="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class=" text-justify modal-body fs-6">
+                          <p>Andrew Russell Garfield (Los Ángeles, California, 20 de agosto de 1983) es un actor y productor británico-estadounidense. A pesar de haber nacido en Los Ángeles, se crio en Epsom, Surrey, donde comenzó a actuar en teatros y producciones televisivas. Su debut cinematográfico se produjo en 2007, con el drama dirigido, producido y co-protagonizado por Robert Redford Leones por corderos Un año después protagonizó Boy A y por su interpretación ganó un Premio BAFTA.</p> 
+
+                          <p>Saltó a la fama internacional cuando interpretación a Eduardo Saverin en la película The social network, que le valió una nominación al Globo de Oro y BAFTA. Fue nominado a los Óscar como mejor actor en 2016 con Hacksaw Ridge. En 2021	ganó el globo de oro al mejor actor - comedia o musical con	Tick, Tick... Boom!</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/nwh.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tom Holland</h5>
+                  <p class="text-justify card-text fs-6">Actualmente, con una edad de 25 años, ha llegado a participar en un total de 6 películas interpretando a este personaje, teniendo otra triligía confirmada por delante y más participaciones en las pelícualas de los vengadores. </p>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                    Leer más
+                  </button>
+                  <!-- Vertically centered modal -->
+                  <div class="modal fade" id="card3" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="text-justify modal-body fs-6">
+                          <p>Thomas Stanley Holland nació el 1 de junio de 1996 en la ciudad de Londres, en Inglaterra, hijo de Dominic Holland, un comediante y autor, y Nicola Frost, una fotógrafa. Es el mayor de cuatro hermanos. Desde temprana edad se interesó por el baile y a los diez años comenzó a tomar clases de ballet a su madre, que notó que disfrutaba de tal actividad. Generalmente sufría bullying por parte de sus compañeros. Sin embargo, gracias a ello llegó a debutar en Billy Elliot en 2008 interpretando al personaje titular. Su actuación recibió críticas positivas de los expertos y destacó principalmente por su capacidad de hacer acrobacias.</p> 
+
+                          <p>Ganó varios premios a mejor actor en Lo Imposible en 2013, además de haber ganado más premios interpretando a Spider-Man en Homecomin y Far From Home.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tabla de Estadísticas -->
+        <section id="estadisticas" class=" text-justify texto bg-negro px-5 py-4">
+          <h1 class="text-center titulo text-blancosolid py-3 fs-2">Top 10 peliculas mas taquilleras</h1>
+          <div class="py-4 px-8 fs-6">
+            <table class="table text-blancosolid table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Película</th>
+                  <th scope="col">Recaudación </th>
+                  <th scope="col">Estreno</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Avatar</td>
+                  <td>$2 847 246 203</td>
+                  <td>2009</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Avengers: Endgame</td>
+                  <td>$2 797 501 328</td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Titanic</td>
+                  <td>$2 201 647 264</td>
+                  <td>1997</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Star Wars: Episodio VII - El despertar de la Fuerza</td>
+                  <td>$2 069 521 700</td>
+                  <td>2015</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Avengers: Infinity War</td>
+                  <td>$2 048 359 754</td>
+                  <td>2018</td>
+                </tr>
+                <tr id="barra">
+                  <th scope="row">6</th>
+                  <td>Spider-Man: No Way Home</td>
+                  <td>$1 742 886 280</td>
+                  <td>2021</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Jurassic World	</td>
+                  <td>$1 670 516 444</td>
+                  <td>2015</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>El rey león</td>
+                  <td>$1 667 635 327</td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>The Avengers</td>
+                  <td>$1 518 815 515</td>
+                  <td>2012</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Furious 7</td>
+                  <td>$1 402 809 540</td>
+                  <td>2015</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="conclusion" class="text-justify texto text-negrosolid bg-blanco px-5 py-4 fs-5">
+          <h1 class="text-center titulo py-3 fs-2">El fenomeno Spider-Man</h1>
+          <div class="row-cols-1">
+          <iframe id="ps4" class=" col-md-7 float-md-end mb-3 ms-md-3" width="560" height="315" src="https://www.youtube.com/embed/3-cauqR-oc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            <p>Desde su primera aparición en los comics, como su recorrido por el cine y hasta su importancia en los videojuegos, Spiderman ha acompañado durante toda su vida a muchas personas, conociendo al personaje de pequeños viendo Spiderman de 2002 en el cine hasta volver a recordarles lo que sintieron en su dia con Spiderman No Way Home.</p>
+            <p>El escritor Stan Lee hizo que Spiderman fuese un símbolo para muchas personas, que representa el sentimiento de la responsabilidad, la pérdida y el amor. Todos hemos soñado que debajo de esa máscara eramos nosotros los que nos columpiabamos sobre los edificios o que podíamos trepar las paredes. Sencillamente el el personaje más querido por la gente debido a que en algún momento, para cada uno de nosotros, significó algo más.
+            </p>
+        </section>
+
+        <!-- Inicio del Footer -->
+          <footer class="row row-cols-4 py-5 m-auto  border-top bg-vanilla">
+            <div class="col-md-3 d-flex align-items-center">
+              <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                <svg class="bi me-2" width="30" height="32"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <p class="text-muted">IES Campanillas© copyright license 2022</p>
+            </div>
+
+            <div class="col"></div>
+        
+            <div class="col">
+              <h5>Redes sociales</h5>
+              <ul class="nav flex-column">
+                <li class="ms-3 "><a class="text-muted" href="https://mobile.twitter.com/home"><svg class="bi " width="24" height="24"></svg><img src="./images/twitter1.png" alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><img src="./images/instagram1.png" alt=""></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.google.com/intl/es/gmail/about/"><svg class="bi" width="24" height="24"><img src="./images/gmail1.png" alt=""></svg></a></li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <h5>Creado por:</h5>
+              <ul class="nav flex-column">
+                <span class="text-muted text-center mx-auto"><a href="https://github.com/sergiomoralesgarcia"><p>Sergio Morales</p></a></span>
+              </ul>
+            </div>
+
+          </footer>
+      </div>
+    </div>
+</body>
+</html>
